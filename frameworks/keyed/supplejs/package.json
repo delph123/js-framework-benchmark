@@ -1,0 +1,36 @@
+{
+  "name": "js-framework-benchmark-supplejs",
+  "version": "1.0.0",
+  "description": "SuppleJS",
+  "main": "index.js",
+  "prettier": {
+    "editorconfig": true
+  },
+  "js-framework-benchmark": {
+    "frameworkVersion": "1.2.1",
+    "customURL": "/dist",
+    "frameworkHomeURL": "https://github.com/delph123/supplejs"
+  },
+  "scripts": {
+    "build-dev": "vite",
+    "build-prod": "vite build"
+  },
+  "keywords": [
+    "supplejs",
+    "vite"
+  ],
+  "author": "Delphin Barraud",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "dependencies": {
+    "supplejs": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
